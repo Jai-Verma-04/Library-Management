@@ -1,6 +1,6 @@
 # Library-Management
 Library Management tool made completely in Python.
-NOTE: To run the program make sure both the code files are in the same folder and the folder's name is 'Library Management'.
+NOTE: To run the program make sure both the code files are in the same folder and the folder's name is 'Library_Management'.
 
 # Features
 1. Sign Up / Login system so that only authorised people can use the program.
