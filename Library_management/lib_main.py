@@ -1,8 +1,4 @@
 
-#TODO Make a saving system in a file (CSV Most probably)
-#TODO Program can retain data even after closed
-
-
 
 class Library:      #* Defining the library class
     
@@ -51,8 +47,7 @@ class Library:      #* Defining the library class
         print(book, "returned")
 
 
-if __name__ == '__main__':
-    
+def main():
     jai = Library(["Python", "C++", "Java", "DS", "Ruby"], "Jai")   #*Books in library, name of library
     
     while True:

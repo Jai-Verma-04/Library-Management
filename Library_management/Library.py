@@ -1,12 +1,5 @@
-from subprocess import call
-
+import lib_main
 '''Creation of the registration and login interface'''
-
-#TODO Implementation of memory saving (Saving the username and passwords to a csv)
-#TODO User once registered can then login again after once closing the application
-#TODO Adding an option to delete a user from the save file
-
-
 registered_users = {}       #* Dictionary os user and password
 
 def register():         #* Function for registering a librarian
@@ -32,8 +25,7 @@ def login():        #* Function for logging in
         
         if registered_users.get(user) == passwd:    #* If password is also correct  
             print("Logged in successfully")
-            call(["python", "Library_management\\lib_main.py"])
-            return
+            lib_main.main()
         
         else:                                       #* If username is correct but password incorrect
             print("Wrong Passsword!!")
