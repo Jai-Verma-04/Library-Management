@@ -1,5 +1,7 @@
 import lib_main
+
 '''Creation of the registration and login interface'''
+
 registered_users = {}       #* Dictionary os user and password
 
 def register():         #* Function for registering a librarian
